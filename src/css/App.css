@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #4F86C6;
+  --secondary-color: #FBFF12;
+}
+
+@import "normalize.css";
+@import "card.css";
+@import "nav.css";
+
+.h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+}
+
+
+.grid-container {
+display: grid;
+padding: 100px 20px 0 20px;
+margin-right: 100px;
+}
+
+.flex-container {
+display: flex;
+overflow-x: scroll;
+width: 100%;
+}
+.flex-container::-webkit-scrollbar { width: 0 !important };
+
+
+.movie-bg {
+
+}
+.movie-img {
+  max-width: 100%;
+  max-height: auto;
+  position: inherit;
+}
+
+.movie-content-container {  
+  background-color: rgb(33, 33, 33);
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 0 auto;
+  bottom: 0;
+  text-align: center;
+  width: 80%;
+}
+
+.movie-content__title-box {
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 0 1rem;
+  border-radius: 3rem;
+  margin-top: -30px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  color: white;
+  position: relative;
+  margin: 30px 5% 70px 5%;
+  width: 80%;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 30px;
+  outline: none;
+}
+
+.search-grid {
+  width: 100%;
+  }
